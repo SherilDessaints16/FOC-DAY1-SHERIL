@@ -1,0 +1,16 @@
+echo "Enter the radius : "
+read r
+echo "Enter thelength:" length
+echo "Enter the breadth:" breadth
+read length
+read breadth
+echo("Ar")
+echo "Area of the Circle is"
+echo "3.14 * $r * $r" | bc
+echo("Area")
+echo("Area of rectangle is")
+echo area=$[$length*$width]
+fi
+
+
+
