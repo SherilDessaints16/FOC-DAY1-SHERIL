@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include<conio.h>
+int binSubtracton(int a,int b)
+{
+int main()
+{
+int number1,number2, binAdd, binSub;
+printf("Input first integer value: ");
+scanf("%d",&number1);
+printf("Input second integer value: ");
+scanf("%d",&number2);
+binSub=binSubtracton(number1,number2);
+
+printf("Binary Subtraction: %d\n",binSub);
+}
+return 0;
+getch();
+}
